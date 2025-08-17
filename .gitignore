@@ -3,3 +3,5 @@
 **/json/
 **/logs/
 /json
+*.json
+*.txt

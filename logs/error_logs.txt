@@ -1,0 +1,1 @@
+08-17 19:23:45 - ERROR - ❌ Failed to load cogs.fun: Extension 'cogs.fun' raised an error: OSError: [Errno 22] Invalid argument: 'json\x07dded_songs.json'
