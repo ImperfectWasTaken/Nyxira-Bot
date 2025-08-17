@@ -14,7 +14,7 @@ load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 GOOGLE_CSE_ID = os.getenv("GOOGLE_CSE_ID")
-PERSISTENT_STORAGE = "json\image_data.json"
+PERSISTENT_STORAGE = "json/image_data.json"
 
 
 

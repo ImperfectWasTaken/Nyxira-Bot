@@ -6,7 +6,7 @@ from datetime import datetime
 from discord import app_commands
 from discord.ext import commands
 
-STATS_FILE = "json\stats.json"
+STATS_FILE = "json/stats.json"
 
 
 def load_stats():

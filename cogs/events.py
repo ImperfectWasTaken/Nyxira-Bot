@@ -11,7 +11,7 @@ from cogs.stats import load_stats, save_stats
 from datetime import datetime
 from dotenv import load_dotenv
 
-LOG_FILE = "json\server_log_channels.json"
+LOG_FILE = "json/server_log_channels.json"
 
 def load_log_channels():
     if not os.path.exists(LOG_FILE):
@@ -365,7 +365,7 @@ TWITCH_CHANNELS = os.getenv("TWITCH_CHANNELS").split(",")
 TWITCH_TOKEN_URL = os.getenv("TWITCH_TOKEN_URL")
 TWITCH_STREAMS_URL = os.getenv("TWITCH_STREAMS_URL")
 
-STREAMS_FILE = "json\live_streams.json"
+STREAMS_FILE = "json/live_streams.json"
 
 
 

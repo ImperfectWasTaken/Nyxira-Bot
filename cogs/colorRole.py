@@ -7,8 +7,8 @@ import pytz
 import webcolors
 from datetime import datetime
 
-COLOR_FILE = "json\colors.json"
-SCHEDULE_FILE = "json\scheduled_roles.json"
+COLOR_FILE = "json/colors.json"
+SCHEDULE_FILE = "json/scheduled_roles.json"
 
 with open(COLOR_FILE, "r") as file:
     CSS3_COLORS = json.load(file)

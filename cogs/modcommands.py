@@ -7,9 +7,9 @@ from discord import app_commands
 from discord.ext import commands
 
 
-LOG_FILE = "json\server_log_channels.json"
-SCHEDULE_FILE = "json\scheduled_roles.json"
-EVENTS_FILE = "json\live_streams.json"
+LOG_FILE = "json/server_log_channels.json"
+SCHEDULE_FILE = "json/scheduled_roles.json"
+EVENTS_FILE = "json/live_streams.json"
 
 
 

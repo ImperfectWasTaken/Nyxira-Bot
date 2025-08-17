@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 class BumpReminder(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.bump_file = "json\bum.json"
+        self.bump_file = "json/bum.json"
         self.check_pending_bump.start()
 
     def save_bump_time(self, timestamp: str):

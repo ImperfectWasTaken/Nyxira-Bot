@@ -15,7 +15,7 @@ load_dotenv()
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents, reconnect=True)
 bot.launch_time = datetime.datetime.now()
-PERSISTENT_STORAGE = "json\image_data.json"
+PERSISTENT_STORAGE = "json/image_data.json"
 
 # Create log directory if it doesn't exist
 log_folder = "logs"

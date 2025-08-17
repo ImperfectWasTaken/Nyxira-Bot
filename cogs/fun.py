@@ -24,14 +24,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-TRACK_LOG_FILE = "json\added_songs.json"
+TRACK_LOG_FILE = "json/added_songs.json"
 
 
 
 class Fun(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.roles_file = "json\ow_role_queue.json"
+        self.roles_file = "json/ow_role_queue.json"
         self.sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
             client_id=os.getenv("client_id"),
             client_secret=os.getenv("client_secret"),
