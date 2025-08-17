@@ -1,4 +1,5 @@
 .env
 .cache
-*.json
-logs/
+**/json/
+**/logs/
+/json
