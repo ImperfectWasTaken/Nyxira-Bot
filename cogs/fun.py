@@ -403,7 +403,7 @@ class Fun(commands.Cog):
             color=0x503c91
         )
 
-        pfpPath = "images\SOULpfp.png"
+        pfpPath = "images/SOULpfp.png"
         pfpFile = discord.File(pfpPath, filename="ServerPfp.png")
 
         embed.set_thumbnail(url="attachment://ServerPfp.png")
